@@ -1,0 +1,13 @@
+figure_list:
+
+  - id: "fig-1"
+    src: figures/Brueghel_1952-G.jpg
+    caption: "Pieter Brueghel the Younger, *Village Lawyer*, 1621,"
+    credit: "Museum voor Schone Kunsten Gent"
+    alt: "A lawyer office is shown busy with people coming in to apparently discuss and sign documents."
+
+  - id: "fig-2"
+    src: figures/ASR_TCS_vol551_1637_f387V.jpg
+    caption: "TCS, Vol. 0551, 1637, fol. 387v,"
+    credit: "Archivio di Stato di Roma"
+    alt: "Notarial document, black ink on paper."

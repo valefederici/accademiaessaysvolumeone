@@ -1,0 +1,120 @@
+# ------------------------------------------------------------------------------
+
+# ==============================================================================
+# Publication.yml
+# ------------------------------------------------------------------------------
+#
+# This file houses the bibliographic info and general metadata for your digital
+# publication.
+
+# ------------------------------------------------------------------------------
+# The publication's base URL, i.e. 'https://www.my-publication.org'
+url: 'http://localhost:8080'
+
+# ------------------------------------------------------------------------------
+# Title & Description
+title: Essays on the Accademia di San Luca
+subtitle: Year of publication - 2023
+reading_line:
+short_title:
+
+description:
+  one_line:
+  full: "These essays were first published in 2023 on the website of the digital project 'The Early History of the Accademia di San Luca, c. 1590-1635: Documents from the Archivio di Stato di Roma'."
+
+# ------------------------------------------------------------------------------
+# Publication Details
+# ------------------------------------------------------------------------------
+
+pub_date: 2023-10-01 # YYYY-MM-DD
+language: en
+pub_type: other # book | journal-periodical | other
+
+identifier:
+  isbn:
+
+publisher:
+  - name: Center for Advanced Study in the Visual Arts
+    location: Washington, D.C.
+    url: https://www.nga.gov/research/casva.html
+    logo: The_Center_Lock-up_White.png
+
+# ------------------------------------------------------------------------------
+# Contributors
+# ------------------------------------------------------------------------------
+
+contributor_as_it_appears: Antonia Fiori, Laurie Nussdorfer
+
+contributor:
+  - id: afiori
+    type: primary
+    first_name: Antonia
+    last_name: Fiori
+  
+  - id: lnuss
+    type: primary
+    first_name: Laurie
+    last_name: Nussdorfer
+
+# ------------------------------------------------------------------------------
+# Copright & License
+# ------------------------------------------------------------------------------
+
+copyright: © 2025 Center for Advanced Study in the Visual Arts, National Gallery of Art
+
+license:
+  name: Creative Commons Attribution 4.0 International License; ; download from https://www.nga.gov/research/casva.html
+  abbreviation: CC BY
+  url: https://creativecommons.org/licenses/by/4.0/
+  scope: full # full | text-only | some-exceptions
+
+# ------------------------------------------------------------------------------
+# Formats, Resources & Links
+# ------------------------------------------------------------------------------
+
+resource_link:
+  - type: other-format
+    name: PDF - Full publication
+    media_type: application/pdf
+    link_relation: alternate
+    url: /_assets/downloads/publication.pdf
+  - type: other-format
+    name: EPUB - Full publication
+    media_type: application/epub+zip
+    link_relation: alternate
+    url: /downloads/output.epub
+  - type: footer-link
+    name: Privacy Policy
+    link_relation: alternate
+    url: https://www.nga.gov/privacy-policy
+  - type: footer-link
+    name: Notices
+    link_relation: alternate
+    url: https://www.nga.gov/terms-and-notices
+
+# ------------------------------------------------------------------------------
+# Subjects
+# ------------------------------------------------------------------------------
+
+subject:
+  - type: bisac
+    name: ARTISTS ACADEMY / Subjects & Themes / Historical
+    identifer: ART015240
+  - type: keywords
+    name: artists academy, rome, italy
+
+# ------------------------------------------------------------------------------
+# Revision History
+# ------------------------------------------------------------------------------
+
+revision_history:
+  - date:
+    summary:
+
+repository_url:
+
+# ------------------------------------------------------------------------------
+# Promo Image
+# ------------------------------------------------------------------------------
+
+promo_image: Cover_Brueghel_1952-G.jpg
